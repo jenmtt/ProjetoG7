@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins&family=Signika&display=swap" rel="stylesheet">
+    <title> CONTATO </title>
+    <link rel="shortcut icon" href="./img/logo_nome-removebg-preview.png">
+</head>
+
+<body>
+
+    <!-- ------- CABEÇALHO ------- -->
+    
+        <header class="header">
+    
+          <div id="log">
+            <a href="index.html"> <img src="./img/logo_novo-removebg-preview.png" alt="Bioart Ecobags logo" width="130"> </a>
+          </div>
+    
+    <!-- ------- BARRA DE NAVEGAÇÃO ------- -->
+    
+          <div id="menu1">
+            <nav>
+              <ul class="nav-list">
+                <li><a class="menu" href="produtos.html"> Produtos </a></li>
+                <li><a class="menu" href="quemsomos.html"> Quem somos </a></li>
+                <li><a class="menu" href="equipe.html"> Equipe </a></li>
+                <li><a class="menu" href="formulario.html"> Contato </a></li>
+              </ul>  
+            </nav>
+          </div>
+    
+          <div id="icons">
+           <a href=""><img id="icone" src="./img/favicon.png" width="35px"></a>
+           <a href=""><img id="icone" src="./img/saco.carr.png" width="35px"></a>
+          </div>
+    
+        </header>
+
+<!-- ------- PARTE PRINCIPAL / FORMULARIO ------- -->
+
+<section class="formulario" id="formulario">
+  <h1> Formulário de contato </h1><br>
+
+  <form action="#">
+      <label for="nome"> <strong> Nome: </strong> </label>
+      <input type="text" id="nome" placeholder="Digite seu nome"> <br><br>
+  <label for="email"><strong> Email: </strong></label>
+  <input type="email" id="email" placeholder="Digite seu email" required>
+      <label for="obs" id="descri"><strong> Comentário: </strong></label>
+      <textarea name="obs" id="obs" cols="15" rows="2" style="resize: none;"></textarea> 
+
+      <div class="botao">
+          <button type="submit" id="botao" onclick="enviar()"> Enviar </button>
+          <button type="reset" id="botao2"> Limpar </button>         
+      
+      <script src="/JS/formulario.js"></script>
+
+        </div>
+  </form>
+</section>
+
+    <!-- ------- RODAPÉ ------- -->
+
+    <footer id="container-footer" >
+
+      <img src="./img/logo_nome-removebg-preview.png" alt="logo sem a bolsa">
+      <p id="contatos"> Email: bioartsd@gmail.com <br>
+          Telefone: (21) 90000-0000 <br>
+          Instagram: @bioarteco <br>
+          Facebook: BioArt Ecobags </p>
+          
+  </footer>
+
+</body>
+</html>
